@@ -1,0 +1,684 @@
+.container {
+  max-width: 1140px; }
+
+/* header styles---start */
+header {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer; }
+  header .logo_holder img {
+    display: inline-block;
+    vertical-align: top; }
+  header .header_items_holder {
+    display: flex;
+    justify-content: space-between; }
+    header .header_items_holder .icon_search_holder {
+      display: flex;
+      justify-content: center; }
+      header .header_items_holder .icon_search_holder img {
+        display: inline-block;
+        vertical-align: top; }
+  header .menu_holder {
+    display: flex;
+    justify-content: flex-end; }
+    header .menu_holder ul li {
+      list-style-type: none; }
+      header .menu_holder ul li span {
+        position: relative;
+        display: block; }
+        header .menu_holder ul li span::before {
+          margin-top: 3px;
+          content: "";
+          right: 0;
+          position: absolute;
+          width: 34px;
+          height: 3px;
+          background-color: #222; }
+        header .menu_holder ul li span::after {
+          margin-top: 14px;
+          right: 0;
+          position: absolute;
+          display: block;
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 3px;
+          background-color: #222; }
+
+@media (min-width: 767px) {
+  header {
+    margin-bottom: 60px; } }
+
+@media (min-width: 992px) {
+  header {
+    padding-top: 60px;
+    margin-bottom: 59px; }
+    header .header_items_holder .icon_search_holder {
+      margin-left: 2px; } }
+
+/* header styles---end */
+/* section_about styles---start */
+.section_about {
+  margin-bottom: 38px; }
+  .section_about .text {
+    margin-bottom: 75px; }
+    .section_about .text h1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 20px;
+      color: #151515; }
+    .section_about .text p {
+      font-size: 10px;
+      text-align: center;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      color: #222; }
+    .section_about .text button {
+      display: inline-block;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      text-align: center;
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 10px;
+      border: none;
+      background-color: #4737ff;
+      color: #fff;
+      transition: 0.5s all; }
+      .section_about .text button:hover, .section_about .text button:focus, .section_about .text button:active {
+        background-color: #1000bb; }
+  .section_about .example_image {
+    margin-bottom: 10px; }
+    .section_about .example_image img {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%; }
+  .section_about .section_about_description {
+    text-align: center; }
+    .section_about .section_about_description h2 {
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: -1px;
+      color: #222;
+      font-size: 16px; }
+    .section_about .section_about_description p {
+      font-family: "Fira Sans", sans-serif;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: normal;
+      color: #222; }
+  .section_about .ceo_founder img {
+    display: inline-block;
+    vertical-align: top; }
+  .section_about .ceo_founder h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #222; }
+  .section_about .ceo_founder p {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #222;
+    margin-bottom: 0; }
+  .section_about .link_to_services a {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    color: #222;
+    opacity: 0.7;
+    text-transform: uppercase; }
+
+@media (min-width: 320px) {
+  .visual_block {
+    width: 132px; }
+    .visual_block img {
+      width: 100%; }
+  button {
+    padding: 5px 10px; } }
+
+@media (min-width: 767px) {
+  .section_about .visual_block {
+    width: 380px; }
+    .section_about .visual_block img {
+      width: 90%; }
+  .section_about .text {
+    margin-bottom: 230px; }
+    .section_about .text h1 {
+      font-size: 40px;
+      line-height: 35px; }
+    .section_about .text p {
+      font-size: 16px;
+      text-align: left;
+      width: 340px; }
+    .section_about .text button {
+      padding: 10px 100px;
+      font-size: 16px;
+      text-transform: uppercase;
+      border: none;
+      background-color: #4737ff;
+      color: #fff; }
+      .section_about .text button:hover, .section_about .text button:focus, .section_about .text button:active {
+        background-color: #1000bb; }
+  .section_about .section_about_description h2 {
+    font-size: 25px; }
+  .section_about .section_about_description p {
+    font-size: 14px; }
+  .section_about .link_to_services a {
+    font-size: 12px; } }
+
+@media (min-width: 992px) {
+  .section_about .visual_block {
+    width: 665px; }
+    .section_about .visual_block img {
+      display: block;
+      width: 100%; }
+  .section_about .text {
+    margin-bottom: 545px; }
+    .section_about .text h1 {
+      font-family: "Fira Sans", sans-serif;
+      text-align: left;
+      padding-top: 66px;
+      margin-bottom: 27px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 70px;
+      letter-spacing: -1px;
+      color: #222; }
+    .section_about .text p {
+      width: 100%;
+      margin-bottom: 56px;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      opacity: 0.7; }
+    .section_about .text button {
+      display: block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 23px;
+      text-align: center;
+      padding: 14px 32px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      background-color: #4737ff;
+      color: #fff; }
+      .section_about .text button:hover, .section_about .text button:focus {
+        background-color: #1000bb; }
+      .section_about .text button:active {
+        transform: scale(0.93); }
+  .section_about .example_image {
+    margin-bottom: 125px; }
+    .section_about .example_image img {
+      width: 475px;
+      height: 564px; }
+  .section_about .link_to_services a {
+    margin-left: 1px;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.7; }
+  .section_about .section_about_description :nth-child(3) {
+    margin-bottom: 62px; }
+  .section_about .section_about_description h2 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    padding-top: 36px;
+    margin-bottom: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px; }
+  .section_about .section_about_description p {
+    text-align: left;
+    width: 444px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7; }
+  .section_about .section_about_description .ceo_founder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    .section_about .section_about_description .ceo_founder img {
+      margin-right: 31px;
+      display: inline-block;
+      vertical-align: top; }
+    .section_about .section_about_description .ceo_founder h3 {
+      width: 100%;
+      text-align: left;
+      padding-top: 3px;
+      margin: 0;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 32px; }
+    .section_about .section_about_description .ceo_founder p {
+      margin: 0;
+      text-align: left;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      opacity: 0.7; } }
+
+/* section_about styles---end */
+/* section_works styles---start */
+.section_works {
+  margin-bottom: 20px; }
+  .section_works .section_works_description h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #222; }
+  .section_works .offers_menu {
+    display: flex;
+    justify-content: space-around; }
+    .section_works .offers_menu ul {
+      padding: 0;
+      list-style: none; }
+      .section_works .offers_menu ul li a {
+        font-size: 10px;
+        color: black; }
+  .section_works .works_image_holder {
+    margin-bottom: 10px; }
+    .section_works .works_image_holder img {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%; }
+  .section_works .link_to_our_works a {
+    font-family: "Fira Sans", sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #222222;
+    opacity: 0.7;
+    text-transform: uppercase; }
+
+@media (min-width: 767px) {
+  .section_works .section_works_description h2 {
+    font-size: 25px; }
+  .section_works .offers_menu {
+    display: flex;
+    justify-content: space-around; }
+    .section_works .offers_menu ul {
+      padding: 0;
+      list-style: none; }
+      .section_works .offers_menu ul li a {
+        font-size: 16px;
+        color: black; }
+  .section_works .link_to_our_works a {
+    font-size: 12px; } }
+
+@media (min-width: 992px) {
+  .section_works {
+    margin-bottom: 38px; }
+    .section_works .section_works_description {
+      margin-bottom: 131px; }
+      .section_works .section_works_description h2 {
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -1px; }
+    .section_works .offers_menu {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 93px;
+      padding-top: 8px; }
+      .section_works .offers_menu ul li {
+        margin-right: 21px;
+        margin-bottom: 21px; }
+        .section_works .offers_menu ul li a {
+          font-family: "Fira Sans", sans-serif;
+          text-decoration: none;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 28px;
+          opacity: 0.5; }
+          .section_works .offers_menu ul li a:hover {
+            color: #1434e1; }
+    .section_works .works_image_holder {
+      margin: 0 110px 125px;
+      display: flex;
+      justify-content: center; }
+      .section_works .works_image_holder img {
+        display: block;
+        vertical-align: top;
+        width: 920px;
+        height: 558px; }
+    .section_works .link_to_our_works a {
+      margin-left: 1px;
+      font-family: "Fira Sans", sans-serif;
+      display: inline-block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      opacity: 0.7; } }
+
+/* section_works styles---end */
+/* discover_works styles---start */
+.section_discover_works {
+  margin-bottom: 40px; }
+  .section_discover_works .discover_works_description h2 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -1px;
+    color: #222; }
+  .section_discover_works nav {
+    margin-bottom: 20px; }
+    .section_discover_works nav ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      .section_discover_works nav ul li {
+        list-style: none; }
+        .section_discover_works nav ul li a {
+          font-family: "Fira Sans", sans-serif;
+          font-size: 10px;
+          text-decoration: none;
+          color: black; }
+          .section_discover_works nav ul li a:hover {
+            color: #1434e1; }
+  .section_discover_works .gallery_image_holder {
+    margin-bottom: 20px; }
+    .section_discover_works .gallery_image_holder img {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%; }
+  .section_discover_works .gallery_description p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    margin-bottom: 10px; }
+  .section_discover_works .see_our_works_link {
+    display: flex;
+    justify-content: flex-end; }
+    .section_discover_works .see_our_works_link button {
+      font-family: "Fira Sans", sans-serif;
+      display: inline-block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      text-align: center;
+      color: #fff;
+      border: none;
+      background-color: #4737ff;
+      transition: 0.5s all; }
+      .section_discover_works .see_our_works_link button:hover, .section_discover_works .see_our_works_link button:focus, .section_discover_works .see_our_works_link button:active {
+        background-color: #1000bb; }
+
+@media (min-width: 320px) {
+  .see_our_works_link button {
+    padding: 10px 105px;
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
+    text-transform: uppercase; } }
+
+@media (min-width: 767px) {
+  .section_discover_works .discover_works_description h2 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .section_discover_works nav {
+    padding-top: 10px;
+    margin: 0; }
+    .section_discover_works nav ul {
+      margin-right: 60px;
+      display: flex;
+      flex-direction: row;
+      margin: 0; }
+      .section_discover_works nav ul li {
+        padding: 0 8px; }
+        .section_discover_works nav ul li a {
+          font-size: 16px; }
+  .section_discover_works .gallery_description p {
+    font-size: 16px; }
+  .section_discover_works .see_our_works_link {
+    display: flex;
+    justify-content: flex-end; }
+    .section_discover_works .see_our_works_link button {
+      padding: 5px 10px;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px; } }
+
+@media (min-width: 992px) {
+  .section_discover_works {
+    margin-bottom: 130px; }
+    .section_discover_works .discover_works_description {
+      margin-bottom: 108px; }
+      .section_discover_works .discover_works_description h2 {
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -1px;
+        text-align: left;
+        margin: 0; }
+    .section_discover_works nav {
+      margin-left: 65px;
+      padding-top: 15px;
+      padding-right: 4px; }
+      .section_discover_works nav ul {
+        display: flex;
+        justify-content: space-between; }
+        .section_discover_works nav ul li {
+          padding: 0; }
+          .section_discover_works nav ul li a {
+            font-family: "Fira Sans", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #222;
+            opacity: 0.3;
+            transition: 0.5s all; }
+    .section_discover_works .gallery_image_holder {
+      margin-bottom: 30px;
+      transition: 0.6s all; }
+      .section_discover_works .gallery_image_holder:hover {
+        transform: translateY(-21px); }
+    .section_discover_works .gallery_description {
+      padding-top: 18px; }
+      .section_discover_works .gallery_description p {
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        opacity: 0.7; }
+    .section_discover_works .see_our_works_link {
+      padding-top: 23px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin: 0; }
+      .section_discover_works .see_our_works_link button {
+        margin: 0;
+        padding: 14px 33px;
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 4px; }
+        .section_discover_works .see_our_works_link button:active {
+          transform: scale(0.93);
+          background-color: #1000bb; } }
+
+/* discover_works styles---end */
+/* footer styles---start */
+footer {
+  margin-bottom: 20px; }
+  footer .about_clients h2 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #222; }
+  footer .about_our_works h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222; }
+  footer .about_our_works p {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #222; }
+  footer .icons_holder_wrapper {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    footer .icons_holder_wrapper .icon_holder {
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      footer .icons_holder_wrapper .icon_holder i {
+        font-size: 25px; }
+  footer .icon_holder {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    footer .icon_holder i {
+      display: inline-block;
+      font-size: 30px;
+      color: #d5d5d5; }
+      footer .icon_holder i:hover {
+        color: black; }
+
+@media (min-width: 767px) {
+  footer {
+    padding-top: 97px;
+    margin-bottom: 30px; }
+    footer .about_clients h2 {
+      font-size: 25px;
+      text-align: left; }
+    footer .about_our_works h3 {
+      font-size: 16px;
+      text-transform: uppercase; }
+    footer .about_our_works p {
+      font-size: 16px; }
+    footer .icons_holder_wrapper {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      footer .icons_holder_wrapper .icon_holder {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        footer .icons_holder_wrapper .icon_holder i {
+          font-size: 50px; } }
+
+@media (min-width: 992px) {
+  footer {
+    margin-bottom: 139px; }
+    footer .about_clients h2 {
+      text-align: left;
+      margin: 0;
+      margin-left: -1px;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -1px; }
+    footer .about_our_works {
+      margin-bottom: 79px;
+      text-align: center; }
+      footer .about_our_works h3 {
+        padding-top: 6px;
+        text-align: left;
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-bottom: 12px; }
+      footer .about_our_works p {
+        text-align: left;
+        font-family: "Fira Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        opacity: 0.7; }
+    footer .icons_holder_wrapper {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      footer .icons_holder_wrapper .icon_holder {
+        margin: 0; }
+        footer .icons_holder_wrapper .icon_holder i {
+          display: inline-block;
+          font-size: 63px;
+          color: #d5d5d5;
+          transition: 0.5s ease-in-out; }
+          footer .icons_holder_wrapper .icon_holder i:hover {
+            color: black; } }
+
+/* footer styles---end */
